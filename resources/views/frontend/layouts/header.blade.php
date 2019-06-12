@@ -6703,6 +6703,17 @@
         };
         /* ]]> */
     </script>
+    <script>
+
+        $(function() {
+            $('#my-form').submit(function(event) {
+                $verified = grecaptcha.getResponse();
+                if ($verified.length === 0) {
+                    event.preventDefault();
+                }
+            });
+        });
+    </script>
     <script type='text/javascript'
             src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.3'></script>
     <script type='text/javascript'
@@ -6928,6 +6939,7 @@
             }
         })('//www.sarathi.cab/?wordfence_lh=1&hid=DD209802CA46AB8BA49EE2CCEB1B4CC5');
     </script>
+
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;

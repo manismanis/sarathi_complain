@@ -46,13 +46,16 @@
                                         <th>Assigned To</th>
                                         <th>Replies</th>
                                         <th>Status</th>
-                                        <th>Action</th>
+                                        @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='user')
+                                            <th>Action</th>
+                                        @endif
                                     </tr>
                                     </thead>
 
                                     <tbody>
                                     @foreach($commentData as $key=>$comment)
-                                        @if ($comment->status == 'OnProcess')
+                                        {{--Reply ma kehi lekhiyeko complains lai matra OnProccess Complains ma dekhauna--}}
+                                        @if ($comment->status == 'OnProcess' && (!$comment->replies == ''))
                                             <tr>
                                                 <td>{{++$key}}</td>
                                                 <td>{{$comment->created_at->diffForHumans()}}</td>
@@ -84,20 +87,25 @@
                                                     </form>
                                                 </td>
                                                 <td>
-                                                    <a href="{{route('view-comment').'/'.$comment->id}}"
-                                                       class="btn btn-success btn-xs"><i class="fa fa-eye"></i></a>
-                                                    <a href="{{route('write-comment').'/'.$comment->id}}"
-                                                       class="btn btn-success btn-xs"><i
-                                                                class="fa fa-comment"></i></a>
+                                                    @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='user')
+
+                                                        <a href="{{route('view-comment').'/'.$comment->id}}"
+                                                           class="btn btn-success btn-xs"><span class="fa fa-eye"
+                                                                                                title="View Comment">
+                                                        </span></a>
+                                                        <a href="{{route('write-comment').'/'.$comment->id}}"
+                                                           class="btn btn-success btn-xs"><span class="fa fa-comment" title="Comment">
+                                                        </span></a>
+                                                    @endif
                                                     @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='admin')
 
-                                                        <a href="{{route('edit-comment').'/'.$comment->id}}"
-                                                           class="btn btn-success btn-xs"><i
-                                                                    class="fa fa-edit"></i></a>
-                                                        <a href="{{route('delete-comment').'/'.$comment->id}}"
-                                                           onclick="return confirm('Are you sure?')"
-                                                           class="btn btn-danger btn-xs"><i
-                                                                    class="fa fa-trash"></i></a>
+                                                        {{--<a href="{{route('edit-comment').'/'.$comment->id}}"--}}
+                                                        {{--class="btn btn-success btn-xs"><i--}}
+                                                        {{--class="fa fa-edit"></i></a>--}}
+                                                        {{--<a href="{{route('delete-comment').'/'.$comment->id}}"--}}
+                                                        {{--onclick="return confirm('Are you sure?')"--}}
+                                                        {{--class="btn btn-danger btn-xs"><i--}}
+                                                        {{--class="fa fa-trash"></i></a>--}}
                                                     @endif
                                                 </td>
                                             </tr>

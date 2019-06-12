@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Notifications\AdminResetPasswordNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Auth;
@@ -41,4 +42,11 @@ class Admin extends Auth
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //to send different notification for resetting the admin password.
+
+    public function sendPasswordResetNotification($token)
+    {
+        $this->notify(new AdminResetPasswordNotification($token));
+    }
 }

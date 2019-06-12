@@ -83,22 +83,26 @@
                                                     </form>
                                                 </td>
                                                 <td>
-                                                    <a href="{{route('view-complain').'/'.$comment->complain->id}}"
-                                                       class="btn btn-success btn-xs"><i class="fa fa-eye" onmouseover="View"></i>
+                                                    @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='user')
 
-                                                    </a>
+                                                        <a href="{{route('view-complain').'/'.$comment->complain->id}}"
+                                                           class="btn btn-success btn-xs"><span class="fa fa-eye" title="View Complain">
+                                                        </span>
+                                                        </a>
+
+                                                        {{--<a href="{{route('write-comment').'/'.$comment->id}}"--}}
+                                                           {{--class="btn btn-success btn-xs"><i--}}
+                                                                    {{--class="fa fa-comment"></i></a>--}}
+                                                    @endif
                                                     @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='admin')
 
-                                                        <a href="{{route('write-comment').'/'.$comment->id}}"
-                                                           class="btn btn-success btn-xs"><i
-                                                                    class="fa fa-comment"></i></a>
-                                                        <a href="{{route('edit-comment').'/'.$comment->id}}"
-                                                           class="btn btn-success btn-xs"><i
-                                                                    class="fa fa-edit"></i></a>
+                                                        {{--<a href="{{route('edit-comment').'/'.$comment->id}}"--}}
+                                                           {{--class="btn btn-success btn-xs"><i--}}
+                                                                    {{--class="fa fa-edit"></i></a>--}}
                                                         <a href="{{route('delete-comment').'/'.$comment->id}}"
                                                            onclick="return confirm('Are you sure?')"
-                                                           class="btn btn-danger btn-xs"><i
-                                                                    class="fa fa-trash"></i></a>
+                                                           class="btn btn-danger btn-xs"><span class="fa fa-trash" title="Delete">
+                                                        </span></a>
                                                     @endif
                                                 </td>
                                             </tr>

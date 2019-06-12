@@ -11,18 +11,22 @@ class AdminLoginController extends Controller
     public function login(Request $request)
     {
         if ($request->isMethod('get')) {
-            return view('admin-login');
+            return view('admin-auth.admin-login');
         }
 
         if ($request->isMethod('post')) {
             $email = $request->email;
             $password = $request->password;
-            if (Auth::guard('admin')->attempt(['email' => $email, 'password' => $password])) {
-                return redirect()->intended(route('dashboard'));
-            } else {
-                echo "Invalid Access";
+            $remember = $request->remember;
+
+
+                if (Auth::guard('admin')->attempt(['email' => $email, 'password' => $password], $remember)) {
+                    return redirect()->intended(route('dashboard'));
+                } else {
+                    echo "Invalid Access";
+                }
             }
-        }
+
     }
 
     public function logout()

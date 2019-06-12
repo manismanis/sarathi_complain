@@ -2,7 +2,7 @@ $(document).ready(function () {
     setTimeout(function () {
         $('.alert').hide('slow');
 
-    },3000);
+    },2000);
 
     $('#myDatepicker2').datetimepicker({
         format: 'YYYY.MM.DD'

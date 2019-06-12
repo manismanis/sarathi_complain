@@ -19,7 +19,6 @@ class CommentController extends BackendController
     public function index()
     {
         //to show the data of logged in user only..
-
         $userType = Auth::guard('admin')->user()->user_type;
         if ($userType != 'admin') {
             $id = Auth::guard('admin')->user()->id;
@@ -30,14 +29,13 @@ class CommentController extends BackendController
             return view($this->pagePath . '.manage-complains.show-comments', $this->data);
         } else {
 
-            $commentData = Comment::all();
+            $commentData = Comment::orderBy('id', 'DESC')->get();
             $this->data('commentData', $commentData);
             return view($this->pagePath . '.manage-complains.show-comments', $this->data);
         }
-
-
     }
 
+    //$commentData ko data haru OnProcess bhanne pagema pani liyera jana yo method define gariyeko ho
     public function onprocessComment()
     {
         //to show the data of logged in user only..
@@ -52,21 +50,15 @@ class CommentController extends BackendController
             return view($this->pagePath . '.manage-complains.show-onprocess-complains', $this->data);
         } else {
 
-            $commentData = Comment::all();
+            $commentData = Comment::orderBy('id', 'DESC')->get();
             $this->data('commentData', $commentData);
             return view($this->pagePath . '.manage-complains.show-onprocess-complains', $this->data);
         }
-
-
     }
 
-    //processing bata done garesi yaha jane
-
+    //$commentData ko data haru Completed bhanne pagema pani liyera jana yo method define gariyeko ho
     public function CompletedComplains()
     {
-
-        //to show the data of logged in user only..
-
         $userType = Auth::guard('admin')->user()->user_type;
         if ($userType != 'admin') {
             $id = Auth::guard('admin')->user()->id;
@@ -77,7 +69,7 @@ class CommentController extends BackendController
             return view($this->pagePath . '.manage-complains.completed-complains', $this->data);
         } else {
 
-            $commentData = Comment::all();
+            $commentData = Comment::orderBy('id', 'DESC')->get();
             $this->data('commentData', $commentData);
             return view($this->pagePath . '.manage-complains.completed-complains', $this->data);
         }
@@ -128,8 +120,6 @@ class CommentController extends BackendController
 
 
     }
-
-
 
     public function updateComplainStatus(Request $request)
     {
@@ -235,12 +225,9 @@ class CommentController extends BackendController
         }
 
         if ($request->isMethod('post')) {
-            $criteria = $request->criteria;  //edit-comment ko form ma input ko hidden method bata criteria ma value pass gareko chha jun hamro comment ko id ko
+            $criteria = $request->criteria;
 
             $data['replies'] = $request->replies;
-//            $data['deadline'] = $request->deadline;
-//            $data['user_id'] = $request->fullname[0];  //to convert array to string
-//            $data['complain_id'] = $request->id;
         }
 
         if (Comment::where('id', '=', $criteria)->update($data)) {  //yo logic bujhne..

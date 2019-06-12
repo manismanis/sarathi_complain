@@ -45,8 +45,8 @@
                                             <a href="" style="color: red">{{$errors->first('replies')}}</a>
                                         </div>
                                         <div class="form-group form-group-sm">
-                                            <button class="btn btn-success btn-sm"><i class="fa fa-comment"></i> Update
-                                                Comment
+                                            <button class="btn btn-success btn-sm"><i class="fa fa-send"></i> Submit
+                                                Reply
                                             </button>
                                         </div>
 

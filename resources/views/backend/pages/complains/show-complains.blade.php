@@ -80,11 +80,15 @@
                                                 </form>
                                             </td>
                                             <td>
-                                                <a href="{{route('view-complain').'/'.$complain->id}}" class="btn btn-success btn-xs"><i class="fa fa-eye"></i></a>
+                                                <a href="{{route('view-complain').'/'.$complain->id}}"
+                                                   class="btn btn-success btn-xs">
+                                                        <span class="fa fa-eye" title="View Complain">
+                                                        </span></a>
                                                 {{--<a href="{{route('edit-complain').'/'.$complain->id}}" class="btn btn-success btn-xs"><i class="fa fa-edit"></i></a>--}}
-                                                <a href="{{route('delete-complain').'/'.$complain->id}}" onclick="return confirm('Are you sure?')"
-                                                   class="btn btn-danger btn-xs"><i
-                                                            class="fa fa-trash"></i></a>
+                                                <a href="{{route('delete-complain').'/'.$complain->id}}"
+                                                   onclick="return confirm('Are you sure?')"
+                                                   class="btn btn-danger btn-xs"><span class="fa fa-trash" title="Delete">
+                                                        </span></a>
                                             </td>
                                         </tr>
                                     @endforeach

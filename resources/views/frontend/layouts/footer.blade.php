@@ -310,9 +310,26 @@
 
 
 <!-- Custom Theme Scripts -->
+{{--<script>--}}
+
+    {{--$(function() {--}}
+        {{--$('#add-data').submit(function(event) {--}}
+            {{--let verified = grecaptcha.getResponse();--}}
+            {{--if (verified.length === 0) {--}}
+                {{--event.preventDefault();--}}
+            {{--}--}}
+        {{--});--}}
+    {{--});--}}
+{{--</script>--}}
 <script src="{{url('backend/ckeditor/ckeditor.js')}}"></script>
 <script src="{{url('backend/build/js/custom.min.js')}}"></script>
 <script src="{{url('backend/custom/custom.js')}}"></script>
+
+{{--<script src="{{url('frontend/js/custom/custom.js')}}"></script>--}}
+{{--<script src="{{url('frontend/js/sweet.js')}}"></script>--}}
+
+
+
 
 {{--<!-- Custom Theme Scripts -->--}}
 {{--<script src="{{url('frontend/bulma/js/jquery.js')}}"></script>--}}

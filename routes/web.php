@@ -6,6 +6,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//===========Routes to reset the password=====//
+
+Route::post('admin-password/email','Admin\ForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
+Route::get('admin-password/reset','Admin\ForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
+Route::post('admin-password/reset','Admin\ResetPasswordController@reset')->name('admin.password.request');
+Route::get('admin-password/reset/{token}','Admin\ResetPasswordController@showResetForm')->name('admin.password.reset');
+//Route::any('/','backend\DashboardController@index')->name('admin.password.update');
+
+
 //============frontend route===============
 
 
@@ -23,8 +32,7 @@ Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
     Route::any('admin-login', 'AdminLoginController@login')->name('admin-login');
 
     Route::group(['middleware' => 'auth:admin'], function () {
-        //admin panel kholne bittikai complain ko list dekhauna
-//        Route::any('/', 'ComplainController@index')->name('complains');
+
         Route::any('/', 'DashboardController@index')->name('dashboard');
 
         Route::any('admin-logout', 'AdminLoginController@logout')->name('admin-logout');
@@ -33,7 +41,12 @@ Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
         Route::any('mail/{criteria?}', 'MailController@sendMail')->name('mail');
 
 
-//==========user routes============//
+
+
+        //==========user routes============//
+        //user_type middleware define garda certain options lai disable gardinchha //ahile lai chai purai hide nai gareko chha
+        //the middleware user_type is defined in kernel.php and whose class is in the folder Middleware/UserTypeCheck
+
         Route::group(['prefix' => 'users', 'middleware' => 'user_type'], function () {
             Route::any('/', 'AdminController@index')->name('users');
             Route::any('add-user', 'AdminController@addUser')->name('add-user');
@@ -63,14 +76,11 @@ Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
             Route::any('update-complain-status', 'CommentController@updateComplainStatus')->name('update-complain-status');
             Route::any('completed-complains', 'CommentController@CompletedComplains')->name('completed-complains');
             Route::any('delete-comment/{criteria?}', 'CommentController@deleteComment')->name('delete-comment');
-            Route::any('delete-user-comment/{criteria?}', 'CommentController@deleteUserComment')->name('delete-user-comment');
             Route::any('view-comment/{criteria?}', 'CommentController@viewComment')->name('view-comment');
             Route::any('edit-comment/{criteria?}', 'CommentController@editComment')->name('edit-comment');
             Route::any('edit-comment-action', 'CommentController@editCommentAction')->name('edit-comment-action');
             Route::any('write-comment/{criteria?}', 'CommentController@writeComment')->name('write-comment');
             Route::any('write-comment-action', 'CommentController@writeCommentAction')->name('write-comment-action');
-            Route::any('edit-user-comment/{criteria?}', 'CommentController@editUserComment')->name('edit-user-comment');
-            Route::any('edit-user-comment-action', 'CommentController@editUserCommentAction')->name('edit-user-comment-action');
 
 
         });

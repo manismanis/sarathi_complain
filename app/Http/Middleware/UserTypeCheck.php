@@ -14,7 +14,7 @@ class UserTypeCheck
      * @param  \Closure $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle($request, Closure $next)  //the path of this middleware is declared in Kernel.php
     {
         $userType = Auth::guard('admin')->user()->user_type;
         if ($userType != 'admin') {

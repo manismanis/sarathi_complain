@@ -36,44 +36,62 @@
                                 <div class="col-md-12">
                                     <form action="{{route('add-user')}}" method="post" enctype="multipart/form-data">
                                         {{csrf_field()}}
-                                        <div class="form-group form-group-sm">
-                                            <label for="fullname">Full Name</label>
-                                            <input type="text" id="name" name="fullname" value="{{old('fullname')}}"
-                                                   placeholder="Enter Your Full Name" class="form-control">
-                                            <a href="" style="color: red">{{$errors->first('fullname')}}</a>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group form-group-sm">
+                                                    <label for="fullname">Full Name</label>
+                                                    <input type="text" id="name" name="fullname"
+                                                           value="{{old('fullname')}}"
+                                                           placeholder="Enter Your Full Name" class="form-control">
+                                                    <a href="" style="color: red">{{$errors->first('fullname')}}</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group form-group-sm">
+                                                    <label for="username">User Name</label>
+                                                    <input type="text" id="username" name="username"
+                                                           value="{{old('username')}}"
+                                                           placeholder="Enter User Name" class="form-control">
+                                                    <a href="" style="color: red">{{$errors->first('username')}}</a>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+
+                                                <div class="form-group form-group-sm">
+                                                    <label for="email">Email</label>
+                                                    <input type="text" id="email" name="email" value="{{old('email')}}"
+                                                           placeholder="Enter Your Email" class="form-control">
+                                                    <a href="" style="color: red">{{$errors->first('emaill')}}</a>
+
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group form-group-sm">
-                                            <label for="username">User Name</label>
-                                            <input type="text" id="username" name="username" value="{{old('username')}}"
-                                                   placeholder="Enter User Name" class="form-control">
-                                            <a href="" style="color: red">{{$errors->first('username')}}</a>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group form-group-sm">
+                                                    <label for="password">Password</label>
+                                                    <input type="password" id="password" name="password"
+                                                           placeholder="Enter Your Password" class="form-control">
+                                                    <a href="" style="color: red">{{$errors->first('password')}}</a>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group form-group-sm">
+                                                    <label for="password_confirmation">Confirm Password</label>
+                                                    <input type="password" id="password_confirm"
+                                                           name="password_confirmation"
+                                                           placeholder="Confirm Your Password" class="form-control">
+                                                </div>
+                                            </div>
 
                                         </div>
 
                                         <div class="form-group form-group-sm">
-                                            <label for="email">Email</label>
-                                            <input type="text" id="email" name="email" value="{{old('email')}}"
-                                                   placeholder="Enter Your Email" class="form-control">
-                                            <a href="" style="color: red">{{$errors->first('emaill')}}</a>
-
-                                        </div>
-
-                                        <div class="form-group form-group-sm">
-                                            <label for="password">Password</label>
-                                            <input type="password" id="password" name="password"
-                                                   placeholder="Enter Your Password" class="form-control">
-                                            <a href="" style="color: red">{{$errors->first('password')}}</a>
-
-                                        </div>
-
-                                        <div class="form-group form-group-sm">
-                                            <label for="password_confirmation">Confirm Password</label>
-                                            <input type="password" id="password_confirm" name="password_confirmation"
-                                                   placeholder="Confirm Your Password" class="form-control">
-                                        </div>
-
-                                        <div class="form-group form-group-sm">
-                                            <button class="btn btn-success btn-sm"><i class="fa fa-save"></i> Add User</button>
+                                            <button class="btn btn-success btn-sm"><i class="fa fa-save"></i> Add
+                                                User
+                                            </button>
 
                                         </div>
                                     </form>
