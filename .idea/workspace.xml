@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a7ac31-c39d-41f8-8ea5-c99c6a4753be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/backend/AdminLoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/backend/AdminLoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/backend/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/backend/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/UserTypeCheck.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/UserTypeCheck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/custom/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/custom/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/bulma.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/css/bulma.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/css/bulma.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/css/bulma.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/base/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/base/generic.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/base/helpers.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/base/minireset.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/card.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/dropdown.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/level.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/list.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/media.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/menu.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/message.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/modal.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/navbar.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/pagination.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/panel.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/components/tabs.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/box.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/button.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/container.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/content.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/form.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/icon.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/image.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/notification.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/other.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/progress.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/table.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/tag.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/elements/title.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/grid/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/grid/columns.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/grid/tiles.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/layout/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/layout/footer.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/layout/hero.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/layout/section.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/_all.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/animations.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/controls.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/functions.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/bulma/sass/utilities/mixins.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin-login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin-auth/admin-login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/complains/show-complains.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/complains/show-complains.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/add-user-comment.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/completed-complains.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/completed-complains.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/show-comments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/show-comments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/show-onprocess-complains.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/show-onprocess-complains.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/write-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/manage-complains/write-comment.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/pages/users/add-user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/pages/users/add-user.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/add-complain.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/add-complain.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="60a7ac31-c39d-41f8-8ea5-c99c6a4753be" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +49,7 @@
       <file leaf-file-name="completed-complains.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/pages/manage-complains/completed-complains.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="94">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="e#300#325#0#HTML" expanded="true" />
@@ -446,7 +369,7 @@
       <workItem from="1559623828322" duration="11943000" />
       <workItem from="1559710022697" duration="35497000" />
       <workItem from="1559883055327" duration="11155000" />
-      <workItem from="1560227342245" duration="15749000" />
+      <workItem from="1560227342245" duration="16023000" />
     </task>
     <task id="LOCAL-00001" summary="updated files.">
       <created>1560333962029</created>
@@ -459,10 +382,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426749000" />
+    <option name="totallyTimeSpent" value="427023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
@@ -470,7 +394,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7091503" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33660132" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="1.0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
@@ -799,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/pages/manage-complains/completed-complains.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="94">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#300#325#0#HTML" expanded="true" />
