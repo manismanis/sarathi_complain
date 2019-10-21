@@ -23,7 +23,6 @@ class CommentController extends BackendController
         if ($userType != 'admin') {
             $id = Auth::guard('admin')->user()->id;
 
-
             $commentData = Comment::where('user_id', '=', $id)->get();
             $this->data('commentData', $commentData);
             return view($this->pagePath . '.manage-complains.show-comments', $this->data);
@@ -81,11 +80,10 @@ class CommentController extends BackendController
         if ($request->isMethod('get')) {
             $this->data('adminData', Admin::all());
 
-            //button click garda request patha leko id ko related data lera add comment page ma lera aauna..
+            //button click garda request bata leko complainko id ko related data add comment page ma lera aauna..
             $criteria = $request->criteria;
             $findData = Complain::findOrFail($criteria);
             $this->data('complainData', $findData);
-//            $this->data('commentData', Comment::all());
             $commentData = Comment::orderBy('id', 'DESC')->get();
             $this->data('commentData', $commentData);
 

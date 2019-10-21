@@ -24,7 +24,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-sm">
                                 <label for="details"><b>Details</b></label>
-                                <textarea name="details" id="details" class="form-control" required autofocus></textarea>
+                                <textarea name="details" id="details" class="form-control" required autofocus>{{old('details')}}</textarea>
                                 {{--<a href="" style="color: red">{{$errors->first('details')}}</a>--}}
 
                             </div>
@@ -43,7 +43,7 @@
                         <div class="col-md-4">
                             <div class="form-group form-group-sm">
                                 <label for="email"><b>Email (Optional)</b></label>
-                                <input type="text" id="email" name="email" value="{{old('email')}}"
+                                <input type="email" id="email" name="email" value="{{old('email')}}"
                                        placeholder="Enter Your Email" class="form-control">
                                 <a href="" style="color: red">{{$errors->first('email')}}</a>
 
@@ -55,8 +55,8 @@
                         <div class="col-md-4">
                             <div class="form-group form-group-sm">
                                 <label for="phone"><b>Contact No.</b></label>
-                                <input type="text" id="phone" name="phone" value="{{old('phone')}}"
-                                       placeholder="Enter Your Phone Number" class="form-control" required autofocus>
+                                <input type="text" id="numbersonly" name="phone" value="{{old('phone')}}"
+                                       placeholder="Enter Your Valid Phone Number" maxlength="10" class="form-control" required autofocus>
                                 <a href="" style="color: red">{{$errors->first('phone')}}</a>
 
                             </div>
@@ -76,15 +76,10 @@
                         <div class="col-md-3">
                             <div class="form-group form-group-sm">
                                 <div class="g-recaptcha" data-sitekey="{{env('CAPTCHA_KEY')}}"></div>
-                                @if($errors->has('g-recaptcha-response'))
-                                    <span class="invalid-feedback" style="display:block">
-                                    <strong>{{$errors->first('g-recaptcha-response')}}</strong>
-                                </span>
-                                @endif
-
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-3">
                             <div class="form-group form-group">

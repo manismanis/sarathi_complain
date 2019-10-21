@@ -1,3 +1,4 @@
+
 @extends('backend.master.master')
 
 @section('content')
@@ -10,6 +11,8 @@
 
             <div class="row">
                 <div class="col-md-12">
+                    <a href="{{route('users')}}" style="font-size: small;" class="btn btn-primary btn-xs"><i
+                                class="fa fa-list"></i> Check User List</a>
                     <div class="x_panel">
                         <div class="x_title">
                             <h2 class="">Add Users</h2>

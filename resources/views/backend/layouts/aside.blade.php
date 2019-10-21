@@ -2,21 +2,18 @@
 
     <div class="col-md-3 left_col">
         <div class="left_col scroll-view">
-            <div class="navbar nav_title" style="border: 0;">
-                <a href="{{route('index')}}" class="site_title"><i class="fa fa-users"></i> <span>Sarathi</span></a>
-            </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
             <div class="profile clearfix">
-                <div class="profile_pic">
-                    <img src="{{url('uploads/images/complains/sarathi.png')}}" alt="..." class="img-circle profile_img">
+                <div class="profile_pic" style="margin-top: 5px">
+                    <img src="{{url('uploads/images/complains/sarathi.png')}}" alt="..." height="80px" width="80px"
+                         class="img-circle">
                 </div>
-                <div class="profile_info">
-                    <span>Welcome <b>{{\Illuminate\Support\Facades\Auth::guard('admin')->user()->username}}</b>
-                    </span>
-
+                <div class="profile_info" style="margin-top: 13px">
+                    <a href="{{route('index')}}" target="_blank"><h2 style="margin-left: 10px;font-size: 22px;font-family: Helvetica">
+                            Sarathi</h2></a>
                 </div>
             </div>
             <!-- /menu profile quick info -->
@@ -26,6 +23,7 @@
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                 <div class="menu_section">
+                    <h3>Admin Panel</h3>
                     <ul class="nav side-menu">
                         <li><a href="{{route('dashboard')}}"><i class="fa fa-dashboard "></i> Dashboard</a></li>
 

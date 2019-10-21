@@ -8,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home | Sarathi</title>
+    <title>Dashboard | Sarathi</title>
+    {{--to add favicon icon to the website--}}
+    <link rel="shortcut icon" type="image/png" href="{{url('uploads/images/complains/sarathi.png')}}">
 
     <!-- Bootstrap -->
     <link href="{{url('backend/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -32,8 +34,10 @@
           rel="stylesheet">
     <link href="{{url('backend/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css')}}" rel="stylesheet">
 
-    <!-- Custom styling plus plugins -->
+    {{--ckeditor--}}
     <link href="{{url('backend/ckeditor/contents.css')}}" rel="stylesheet">
+
+    {{--<!-- Custom styling plus plugins --> .. custom css fields should always be at last--}}
     <link href="{{url('backend/build/css/custom.min.css')}}" rel="stylesheet">
     <link href="{{url('backend/custom/custom.css')}}" rel="stylesheet">
 </head>

@@ -6,16 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{url('css/app.css')}}">
-    <title>Admin Login</title>
+    <title>Admin Login | Sarathi</title>
 </head>
 <body>
 <main class="py-4">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header" style="font-size: medium"><strong>Sarathi: Complain Management System:
-                            Login</strong></div>
+                <div class="card border-primary">
+                    <div class="card-header bg-primary text-white" style="font-size: large">Sarathi: Complain
+                        Management System:
+                        Admin Login
+                    </div>
                     <div class="card-body">
                         <form method="post" action="{{route('admin-login')}}">
                             {{csrf_field()}}
@@ -57,9 +59,9 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
-                                     <a class="btn btn-link" href="{{route('admin.password.request')}}">
-                                            {{ __('Forgot Your Password?') }}
-                                        </a>
+                                    <a class="btn btn-link" href="{{route('admin.password.request')}}">
+                                        {{ __('Forgot Your Password?') }}
+                                    </a>
                                 </div>
                             </div>
 

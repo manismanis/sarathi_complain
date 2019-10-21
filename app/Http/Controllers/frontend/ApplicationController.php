@@ -11,15 +11,49 @@ class ApplicationController extends FrontendController
 {
     public function index()
     {
-        return view($this->pagePath . '.home');
+        return view($this->pagePath . '.general.home');
+    }
 
+    public function about()
+    {
+        return view($this->pagePath . '.general.about');
+    }
+
+    public function impact()
+    {
+        return view($this->pagePath . '.general.impact');
+    }
+
+    public function drivers()
+    {
+        return view($this->pagePath . '.impact/drivers');
+    }
+
+    public function cab_owners()
+    {
+        return view($this->pagePath . '.impact/cab_owners');
+    }
+
+    public function customers()
+    {
+        return view($this->pagePath . '.impact/customers');
+    }
+
+    public function media()
+    {
+        return view($this->pagePath . '.general.media');
+    }
+
+    public function contact()
+    {
+        return view($this->pagePath . '.general.contact');
     }
 
     public function Complain()
     {
         $complainData = Complain::orderBy('id', 'DESC')->get();
         $this->data('complainData', $complainData);
-        return view($this->pagePath . '.add-complain', $this->data);
+        return view($this->pagePath . '.complain.add-complain', $this->data);
     }
 
     public function addComplain(Request $request)
@@ -33,7 +67,7 @@ class ApplicationController extends FrontendController
                 'subject' => 'required|min:10|max:100',
                 'details' => 'required|min:15|max:500',
                 'name' => 'required|min:3|max:50',
-                'phone' => 'required|min:10|max:15',
+                'phone' => 'required|min:10|max:10',
                 'upload' => 'mimes:jpg,jpeg,png,gif,doc,docx'
 
             ]);

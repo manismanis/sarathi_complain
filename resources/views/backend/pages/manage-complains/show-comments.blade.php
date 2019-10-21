@@ -50,7 +50,7 @@
 
                                     <tbody>
                                     @foreach($commentData as $key=>$comment)
-                                        {{--reply lekhepachhi assigened complains ma nadekhauna--}}
+                                        {{--reply lekhepachhi assigned complains ma nadekhauna--}}
                                         @if($comment->replies == '')
                                             <tr>
                                                 <td>{{++$key}}</td>

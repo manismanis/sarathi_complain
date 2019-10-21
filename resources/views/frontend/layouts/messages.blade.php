@@ -8,7 +8,8 @@
 
 @if(session('error'))
 
-    <div class="alert alert-success">
+    <div class="alert alert-danger
+">
         <i class="fa fa-times"></i> {{session('error')}}
 
     </div>

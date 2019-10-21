@@ -94,7 +94,8 @@
                                                                                                 title="View Comment">
                                                         </span></a>
                                                         <a href="{{route('write-comment').'/'.$comment->id}}"
-                                                           class="btn btn-success btn-xs"><span class="fa fa-comment" title="Comment">
+                                                           class="btn btn-success btn-xs"><span class="fa fa-comment"
+                                                                                                title="Comment">
                                                         </span></a>
                                                     @endif
                                                     @if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->user_type=='admin')

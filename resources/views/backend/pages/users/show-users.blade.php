@@ -9,9 +9,9 @@
             <div class="clearfix"></div>
 
             <div class="row">
-                <a href="{{route('add-user')}}" class="btn btn-sm" style="font-size: medium"><i
-                            class="fa fa-backward"> Back</i></a>
                 <div class="col-md-12">
+                    <a href="{{route('add-user')}}" style="font-size: small;" class="btn btn-primary btn-xs"><i
+                                class="fa fa-plus"></i>Add New User</a>
                     <div class="x_panel">
                         <div class="x_title">
                             <h2>List of Admins/Users</h2>
@@ -88,7 +88,8 @@
 
 
                                             <td>
-                                                <a href="{{route('edit-user').'/'.$admin->id}}" class="btn btn-success btn-xs"><i class="fa fa-edit"></i></a>
+                                                <a href="{{route('edit-user').'/'.$admin->id}}"
+                                                   class="btn btn-success btn-xs"><i class="fa fa-edit"></i></a>
                                                 <a href="{{route('delete-user').'/'.$admin->id}}"
                                                    onclick="return confirm('Are you sure?')"
                                                    class="btn btn-danger btn-xs"><i

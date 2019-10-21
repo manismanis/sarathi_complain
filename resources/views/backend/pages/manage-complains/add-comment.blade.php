@@ -59,14 +59,13 @@
                                         <div class="form-group form-group-sm">
                                             <label for="comments">Comments</label>
                                             <textarea name="comments" id="details_id"
-                                                      class="form-control"></textarea>
-                                            <a href="" style="color: red">{{$errors->first('comments')}}</a>
+                                                      class="form-control" required="required"></textarea>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <div class="form-group form-group-sm">
                                                     <label for="assigned_to">Assign To</label>
-                                                    <select name="fullname" class="form-control">
+                                                    <select name="fullname" class="form-control" required="required">
                                                         <option value="" disabled selected>--Select Name--</option>
                                                         @foreach ($adminData as $admin)
                                                             <option value="{{$admin->id}}">{{($admin->fullname)}}</option>
@@ -82,10 +81,8 @@
 
                                                     <input type="text" class="form-control" name="deadline"
                                                            id="myDatepicker2"
-                                                           placeholder="Pick the date">
-                                                    <a href="" style="color: red">{{$errors->first('deadline')}}</a>
-                                                </div>
-
+                                                           placeholder="Pick the date here" required="required">
+                                                </div> {{--id="single_cal3" gives current date--}}
                                             </div>
                                         </div>
                                         <div class="form-group form-group-sm">

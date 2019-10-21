@@ -1,9 +1,8 @@
 @section('footer')
     <!-- footer content -->
     <footer>
-        <div class="pull-right">
-            Admin Page <a href="#">Developed By IT Training Nepal</a>
-        </div>
+        <a href="https://sarathi.cab" target="_blank"><h6 style="text-align: center;color: blue">Copyright © Manish Shrestha (Social
+                Aves)</h6></a>
         <div class="clearfix"></div>
     </footer>
     <!-- /footer content -->
@@ -26,11 +25,14 @@
     <!-- bootstrap-daterangepicker -->
     <script src="{{url('backend/vendors/moment/min/moment.min.js')}}"></script>
     <script src="{{url('backend/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+
     <!-- bootstrap-datetimepicker -->
     <script src="{{url('backend/vendors/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js')}}"></script>
 
-    <!-- Custom Theme Scripts -->
+    {{--ckeditor--}}
     <script src="{{url('backend/ckeditor/ckeditor.js')}}"></script>
+
+    <!-- Custom Theme Scripts -->
     <script src="{{url('backend/build/js/custom.min.js')}}"></script>
     <script src="{{url('backend/custom/custom.js')}}"></script>
 

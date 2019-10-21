@@ -38,7 +38,7 @@ class AdminController extends BackendController
 
         }
 
-        if (Admin::create($data)) {    //hamro admins bhanne table Admin bhanne model sanga related chha so..
+        if (Admin::create($data)) {
             return redirect()->route('users')->with('success', 'User has been added');
 
         }

@@ -6,20 +6,20 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//===========Routes to reset the password=====//
-
-Route::post('admin-password/email','Admin\ForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
-Route::get('admin-password/reset','Admin\ForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
-Route::post('admin-password/reset','Admin\ResetPasswordController@reset')->name('admin.password.request');
-Route::get('admin-password/reset/{token}','Admin\ResetPasswordController@showResetForm')->name('admin.password.reset');
-//Route::any('/','backend\DashboardController@index')->name('admin.password.update');
-
-
 //============frontend route===============
-
 
 Route::group(['namespace' => 'frontend'], function () {   //namespace le kun end ma use hune batauchha..
     Route::any('/', 'ApplicationController@index')->name('index');
+    Route::any('/about', 'ApplicationController@about')->name('about');
+//    Route::any('/impact', 'ApplicationController@impact')->name('impact');
+    Route::group(['prefix' => 'impact',], function () {
+        Route::any('/', 'ApplicationController@impact')->name('impact');
+        Route::any('/impact_on_drivers', 'ApplicationController@drivers')->name('drivers');
+        Route::any('/impact_on_cab_owners', 'ApplicationController@cab_owners')->name('cab_owners');
+        Route::any('/impact_on_customers', 'ApplicationController@customers')->name('customers');
+    });
+    Route::any('/media', 'ApplicationController@media')->name('media');
+    Route::any('/contact', 'ApplicationController@contact')->name('contact');
     Route::any('/complain', 'ApplicationController@Complain')->name('complain');
     Route::any('add-complain', 'ApplicationController@addComplain')->name('add-complain');
 });
@@ -29,6 +29,13 @@ Route::group(['namespace' => 'frontend'], function () {   //namespace le kun end
 
 Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
 
+    //===========Routes to reset the password=====//
+    Route::post('admin-password/email', 'Admin\ForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
+    Route::any('admin-password/reset', 'Admin\ForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
+    Route::post('admin-password/reset', 'Admin\ResetPasswordController@reset')->name('admin.password.request');
+    Route::get('admin-password/reset/{token}', 'Admin\ResetPasswordController@showResetForm')->name('admin.password.reset');
+
+
     Route::any('admin-login', 'AdminLoginController@login')->name('admin-login');
 
     Route::group(['middleware' => 'auth:admin'], function () {
@@ -36,11 +43,6 @@ Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
         Route::any('/', 'DashboardController@index')->name('dashboard');
 
         Route::any('admin-logout', 'AdminLoginController@logout')->name('admin-logout');
-
-        Route::get('mail', 'MailController@index');
-        Route::any('mail/{criteria?}', 'MailController@sendMail')->name('mail');
-
-
 
 
         //==========user routes============//
@@ -64,7 +66,6 @@ Route::group(['namespace' => 'backend', 'prefix' => '@admin'], function () {
             Route::any('delete-complain/{criteria?}', 'ComplainController@deleteComplain')->name('delete-complain');
             Route::any('edit-complain/{criteria?}', 'ComplainController@editComplain')->name('edit-complain');
             Route::any('edit-complain-action', 'ComplainController@editComplainAction')->name('edit-complain-action');
-            Route::any('download/{file}', 'ComplainController@Download')->name('download');
 
 
             //======comments routes==========//

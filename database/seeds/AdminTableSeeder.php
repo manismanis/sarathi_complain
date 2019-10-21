@@ -11,11 +11,20 @@ class AdminTableSeeder extends Seeder
      */
     public function run()
     {
-        \App\Admin::create([
-            'fullname' => 'Prakash Gautam',
-            'username' => 'Prakash',
-            'email' => 'prakash@gmail.com',
-            'password' => bcrypt('123')
+        \Illuminate\Support\Facades\DB::table('admins')->insert([
+            [
+                'fullname' => 'Prakash Neupane',
+                'username' => 'Prkash',
+                'email' => 'prakash@gmail.com',
+                'password' => bcrypt('123')
+            ],
+            [
+                'fullname' => 'Manish Shrestha',
+                'username' => 'Manish',
+                'email' => 'manish@gmail.com',
+                'password' => bcrypt('123')
+            ]
+
 
         ]);
     }

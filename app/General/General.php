@@ -8,6 +8,6 @@ trait General
 
     public function data($key, $value = null)
     {
-        return $this->data[$key] = $value;   //database to data haru return garda yo data use hunchha
+        return $this->data[$key] = $value;   //database ko data haru return garda yo data use hunchha
     }
 }

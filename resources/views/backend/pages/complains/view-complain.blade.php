@@ -1,3 +1,4 @@
+
 @extends('backend.master.master')
 
 @section('content')
@@ -39,7 +40,7 @@
 
                                     <div class="row">
                                         <div class="col-md-8">
-                                            <form action="{{route('add-comment')}}" method="post"
+                                            <form action="#" method="post"
                                                   enctype="multipart/form-data">
                                                 {{csrf_field()}}
                                                 <input type="hidden" name="criteria" value="{{$ComplainData->id}}">
@@ -76,7 +77,6 @@
                                         <div class="col-md-4">
                                             <img src="{{url('uploads/images/complains/' .$ComplainData->image)}}" alt=""
                                                  class="img-responsive thumbnail" style="margin-top: 23px">
-                                            {{--<a href="{{route('download',$ComplainData->image)}}" class="btn btn-success"><i class="icon-download-alt"> </i> Download File </a>--}}
 
                                         </div>
 

@@ -1,9 +1,7 @@
-@section('header')
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US" class="no-js scheme_default">
 <head>
-    <title>Sarathi &#8211; Taxi Service &#8211; I am your Sarathi</title>
+    <title>Media &#8211; Sarathi &#8211; Taxi Service</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -12,14 +10,11 @@
     <link rel='dns-prefetch' href='//ajax.googleapis.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
-
-    {{--<!-- Custom styling plus plugins}}--}}
-    {{--<link href="{{url('backend/build/css/custom.min.css')}}" rel="stylesheet">--}}
-
     <link rel="alternate" type="application/rss+xml" title="Sarathi - Taxi Service &raquo; Feed"
           href="https://www.sarathi.cab/feed/"/>
     <link rel="alternate" type="application/rss+xml" title="Sarathi - Taxi Service &raquo; Comments Feed"
           href="https://www.sarathi.cab/comments/feed/"/>
+    <meta property="og:image" content="https://www.sarathi.cab/demo/wp-content/uploads/2018/01/microphones.jpg"/>
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/",
@@ -228,31 +223,14 @@
           href='https://www.sarathi.cab/demo/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css?ver=1.11.4'
           type='text/css' media='screen'/>
     <link rel='stylesheet' id='getcab-font-google_fonts-css'
-          href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800%7CLato:300,400%7CRaleway:400,600,700,900&#038;subset=latin,latin-ext&#038;rnd=262443676'
+          href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800%7CLato:300,400%7CRaleway:400,600,700,900&#038;subset=latin,latin-ext&#038;rnd=1517225339'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='fontello-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/fontello/css/fontello-embedded.css?rnd=705286039'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/fontello/css/fontello-embedded.css?rnd=1221984672'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-main-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/style.css?rnd=954807177' type='text/css'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/style.css?rnd=1839855344' type='text/css'
           media='all'/>
-
-    {{--frontend ko form ko lagi links haru--}}
-
-    <link href="{{url('frontend/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/font-awesome.min.css')}}" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="{{url('backend/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/animate.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/main.css')}}" rel="stylesheet">
-    <link href="{{url('frontend/css/responsive.css')}}" rel="stylesheet">
-    <script src="{{url('frontend/js/html5shiv.js')}}"></script>
-    <script src="{{url('frontend/js/respond.min.js')}}"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-
     <style id='getcab-main-inline-css' type='text/css'>
         body {
             font-family: "Dosis", sans-serif;
@@ -6653,10 +6631,10 @@
         }
     </style>
     <link rel='stylesheet' id='getcab-child-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/sarathi/style.css?rnd=1160305843' type='text/css'
+          href='https://www.sarathi.cab/demo/wp-content/themes/sarathi/style.css?rnd=836469874' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='getcab-animation-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/animation.css?rnd=1967273105' type='text/css'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/animation.css?rnd=648955807' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='mediaelement-css'
           href='https://www.sarathi.cab/demo/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1'
@@ -6665,25 +6643,25 @@
           href='https://www.sarathi.cab/demo/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.9.10'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-hovers-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/includes/theme.hovers/theme.hovers.css?rnd=2130600597'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/includes/theme.hovers/theme.hovers.css?rnd=856246491'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-trx_addons-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/trx_addons/trx_addons.css?rnd=1088459523'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/trx_addons/trx_addons.css?rnd=1780020399'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-trx_addons_editor-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/trx_addons/trx_addons.editor.css?rnd=1054057793'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/trx_addons/trx_addons.editor.css?rnd=1997346113'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-essential-grid-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/essential-grid/essential-grid.css?rnd=620250953'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/essential-grid/essential-grid.css?rnd=1775257504'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-js_composer-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/js_composer/js_composer.css?rnd=1030456122'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/js_composer/js_composer.css?rnd=720876074'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-woocommerce-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/woocommerce/woocommerce.css?rnd=920043010'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/woocommerce/woocommerce.css?rnd=1747975592'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='getcab-responsive-css'
-          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/responsive.css?rnd=1808378359' type='text/css'
+          href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/responsive.css?rnd=535010496' type='text/css'
           media='all'/>
     <script type='text/javascript'
             src='https://www.sarathi.cab/demo/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
@@ -6706,17 +6684,6 @@
             "cart_redirect_after_add": "no"
         };
         /* ]]> */
-    </script>
-    <script>
-
-        $(function () {
-            $('#my-form').submit(function (event) {
-                $verified = grecaptcha.getResponse();
-                if ($verified.length === 0) {
-                    event.preventDefault();
-                }
-            });
-        });
     </script>
     <script type='text/javascript'
             src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.3'></script>
@@ -6830,12 +6797,12 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sarathi.cab/demo/xmlrpc.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
           href="https://www.sarathi.cab/demo/wp-includes/wlwmanifest.xml"/>
-    <link rel="canonical" href="https://www.sarathi.cab/"/>
-    <link rel='shortlink' href='https://www.sarathi.cab/'/>
+    <link rel="canonical" href="https://www.sarathi.cab/media/"/>
+    <link rel='shortlink' href='https://www.sarathi.cab/?p=1456'/>
     <link rel="alternate" type="application/json+oembed"
-          href="https://www.sarathi.cab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sarathi.cab%2F"/>
+          href="https://www.sarathi.cab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sarathi.cab%2Fmedia%2F"/>
     <link rel="alternate" type="text/xml+oembed"
-          href="https://www.sarathi.cab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sarathi.cab%2F&#038;format=xml"/>
+          href="https://www.sarathi.cab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sarathi.cab%2Fmedia%2F&#038;format=xml"/>
     <script type="text/javascript">
         var ajaxRevslider;
 
@@ -6854,7 +6821,7 @@
 
                 data.action = 'revslider_ajax_call_front';
                 data.client_action = 'get_slider_html';
-                data.token = '0e28843e1b';
+                data.token = 'de5f07a066';
                 data.type = obj.type;
                 data.id = obj.id;
                 data.aspectratio = obj.aspectratio;
@@ -6904,46 +6871,6 @@
             }, 30);
         });
     </script>
-    <script type="text/javascript">
-        (function (url) {
-            if (/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)) {
-                return;
-            }
-            var addEvent = function (evt, handler) {
-                if (window.addEventListener) {
-                    document.addEventListener(evt, handler, false);
-                } else if (window.attachEvent) {
-                    document.attachEvent('on' + evt, handler);
-                }
-            };
-            var removeEvent = function (evt, handler) {
-                if (window.removeEventListener) {
-                    document.removeEventListener(evt, handler, false);
-                } else if (window.detachEvent) {
-                    document.detachEvent('on' + evt, handler);
-                }
-            };
-            var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-            var logHuman = function () {
-                if (window.wfLogHumanRan) {
-                    return;
-                }
-                window.wfLogHumanRan = true;
-                var wfscr = document.createElement('script');
-                wfscr.type = 'text/javascript';
-                wfscr.async = true;
-                wfscr.src = url + '&r=' + Math.random();
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(wfscr);
-                for (var i = 0; i < evts.length; i++) {
-                    removeEvent(evts[i], logHuman);
-                }
-            };
-            for (var i = 0; i < evts.length; i++) {
-                addEvent(evts[i], logHuman);
-            }
-        })('//www.sarathi.cab/?wordfence_lh=1&hid=DD209802CA46AB8BA49EE2CCEB1B4CC5');
-    </script>
-
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -7019,12 +6946,6 @@ Click the help icon above to learn more.
         .footer_wrap_inner .contacts_logo {
             margin-bottom: 1.75em;
         }        </style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1515664877714 {
-            background: #ffffff url(https://www.sarathi.cab/demo/wp-content/uploads/2016/10/big-bg-phone-1-1.png?id=577) !important;
-            background-position: center !important;
-            background-repeat: no-repeat !important;
-            background-size: cover !important;
-        }</style>
     <noscript>
         <style type="text/css"> .wpb_animate_when_almost_visible {
                 opacity: 1;
@@ -7032,7 +6953,7 @@ Click the help icon above to learn more.
     </noscript>
 </head>
 
-<body class="home page-template-default page page-id-52 woocommerce-no-js blog_mode_home body_tag body_style_wide scheme_default  is_stream blog_style_excerpt sidebar_hide expand_content remove_margins header_style_header-default header_position_over header_title_off menu_style_top no_layout wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
+<body class="page-template-default page page-id-1456 woocommerce-no-js blog_mode_page body_tag body_style_wide scheme_default is_single sidebar_hide expand_content header_style_header-default header_position_default header_title_on menu_style_top no_layout wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
 
 
 <div class="body_wrap">
@@ -7051,17 +6972,17 @@ Click the help icon above to learn more.
 			 with_bg_image			scheme_default">
                 <div class="menu_main_wrap clearfix menu_hover_fade">
                     <div class="content_wrap">
-                        <a class="logo" href="#"><img
-                                    src="https://www.sarathi.cab/swp/wp-content/uploads/2017/07/light-logo.png"
-                                    class="logo_main" alt=""></a>
+                        <a class="logo" href="https://www.sarathi.cab/"><img
+                                    src="https://www.sarathi.cab/demo/wp-content/uploads/2018/01/sarathi-logo.png"
+                                    class="logo_main" alt="" width="600" height="600"></a>
                         <nav class="menu_main_nav_area">
                             <ul id="menu_main" class="menu_main_nav">
                                 <li id="menu-item-1672"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1672">
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-52 current_page_item menu-item-1672">
                                     <a href="{{route('index')}}"><span>Home</span></a></li>
                                 <li id="menu-item-1740"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1512 current_page_item menu-item-1740">
-                                    <a href="{{route('about')}}"><span>About</span></a></li>
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740"><a
+                                            href="{{route('about')}}"><span>About</span></a></li>
                                 <li id="menu-item-1646"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1646">
                                     <a href="{{route('drivers')}}"><span>Impact</span></a>
@@ -7086,32 +7007,40 @@ Click the help icon above to learn more.
                                 <li id="menu-item-1377"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1377"><a
                                             href="{{route('contact')}}"><span>Contact Us</span></a>
-                                    {{--<ul class="sub-menu">--}}
-                                    {{--<li id="menu-item-1649"--}}
-                                    {{--class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1649">--}}
-                                    {{--<a href="{{route('complain')}}"><span> Write Complain</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--</ul>--}}
                                 </li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-            </div><!-- /.top_panel_navi --></header>
+            </div><!-- /.top_panel_navi -->
+            <div class="top_panel_title_wrap getcab_inline_0">
+                <div class="content_wrap">
+                    <div class="top_panel_title">
+                        <div class="breadcrumbs"><a class="breadcrumbs_item home"
+                                                    href="{{route('index')}}">Home</a><span
+                                    class="breadcrumbs_delimiter"></span><span
+                                    class="breadcrumbs_item current">Media</span></div>
+                        <div class="page_title">
+                            <h1 class="page_caption">Media</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="menu_mobile_overlay"></div>
         <div class="menu_mobile">
             <div class="menu_mobile_inner">
-                <a class="menu_mobile_close icon-cancel"></a><a class="logo" href="#"><img
-                            src="https://www.sarathi.cab/swp/wp-content/uploads/2017/07/light-logo.png"
-                            class="logo_main" alt=""></a>
+                <a class="menu_mobile_close icon-cancel"></a><a class="logo" href="https://www.sarathi.cab/"><img
+                            src="https://www.sarathi.cab/demo/wp-content/uploads/2018/01/sarathi-logo.png"
+                            class="logo_main" alt="" width="600" height="600"></a>
                 <nav class="menu_mobile_nav_area">
                     <ul id="menu_mobile" class="menu_mobile_nav">
                         <li id="menu_mobile-item-1672"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1672">
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-52 current_page_item menu-item-1672">
                             <a href="{{route('index')}}"><span>Home</span></a></li>
                         <li id="menu_mobile-item-1740"
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1512 current_page_item menu-item-1740">
-                            <a href="{{route('about')}}"><span>About</span></a></li>
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740"><a
+                                    href="{{route('about')}}"><span>About</span></a></li>
                         <li id="menu_mobile-item-1646"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1646">
                             <a href="{{route('drivers')}}"><span>Impact</span></a>
@@ -7154,5 +7083,553 @@ Click the help icon above to learn more.
             </div>
         </div>
 
+        <div class="page_content_wrap scheme_default">
 
-@endsection
+            <div class="content_wrap">
+
+
+                <div class="content">
+
+
+                    <article id="post-1456"
+                             class="post_item_single post_type_page post-1456 page type-page status-publish has-post-thumbnail hentry">
+
+
+                        <div class="post_content entry-content">
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                                                <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            class="vc_sep_line"></span></span>
+                                            </div>
+                                            <div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
+                                                <div class="wpb_wrapper">
+                                                    <h2 class="wpb_heading wpb_video_heading">Himalayan TV</h2>
+                                                    <div class="wpb_video_wrapper">
+                                                        <iframe width="1170" height="878"
+                                                                src="https://www.youtube.com/embed/abmOpb9GFY8?feature=oembed"
+                                                                frameborder="0" allow="autoplay; encrypted-media"
+                                                                allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                                                <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            class="vc_sep_line"></span></span>
+                                            </div>
+                                            <div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
+                                                <div class="wpb_wrapper">
+                                                    <h2 class="wpb_heading wpb_video_heading">Nepal TV</h2>
+                                                    <div class="wpb_video_wrapper">
+                                                        <iframe width="1170" height="878"
+                                                                src="https://www.youtube.com/embed/CVIgA2Axik8?feature=oembed"
+                                                                frameborder="0" allow="autoplay; encrypted-media"
+                                                                allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                                                <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            class="vc_sep_line"></span></span>
+                                            </div>
+                                            <div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
+                                                <div class="wpb_wrapper">
+                                                    <h2 class="wpb_heading wpb_video_heading">Kantipur TV</h2>
+                                                    <div class="wpb_video_wrapper">
+                                                        <iframe width="1170" height="658"
+                                                                src="https://www.youtube.com/embed/KalfLs7gcNA?feature=oembed"
+                                                                frameborder="0" allow="autoplay; encrypted-media"
+                                                                allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                                                <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            class="vc_sep_line"></span></span>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>National newspapers, online-news and magazine coverages</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                                                <span class="vc_sep_holder vc_sep_holder_l"><span
+                                                            class="vc_sep_line"></span></span><span
+                                                        class="vc_sep_holder vc_sep_holder_r"><span
+                                                            class="vc_sep_line"></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://www.onlinekhabar.com/2017/10/634224"
+                                                        id="sc_button_483315336"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title"> काठमाडौंमा नौलो ट्याक्सी सेवा: बार्गेनिङ हुँदैन, मिटरमै जानुपर्छ !</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://kathmandupost.ekantipur.com/news/2017-12-25/simple-solutions-done-right.html"
+                                                        id="sc_button_1539333735"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Simple Solutions Done Right</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://www.myrepublica.com/news/32389/?categoryId=81"
+                                                        id="sc_button_1534108988"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Sarathi gaining ground in Kathmandu taxi market</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://www.nepalitelecom.com/2017/08/sarathi-cab-taxi-app-launch-best-cheap-taxi-nepal.html"
+                                                        id="sc_button_1378168852"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Sarathi Cab App To Launch For Best, Cheap Taxi Riding</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://nepal.ekantipur.com/news/2017-08-08/20170808083606.html"
+                                                        id="sc_button_1399639824"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">सडकमा नयाँ सारथि</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://epaper.thehimalayantimes.com/textview_4673_3200_4__21_29-10-2017_71_1.html"
+                                                        id="sc_button_261888969"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Your charioteer</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://www.myrepublica.com/news/39765/"
+                                                        id="sc_button_648906448"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">FOR A COMFY, RELIABLE RIDE</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://www.karobardaily.com/news/auto/4273"
+                                                        id="sc_button_1113665922"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">सारथीसँग जोडिएका ट्याक्सीले दैनिक ७ हजारसम्म कमाउँछन्</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button --></div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://www.kantipurdaily.com/hello-sukrabar/2018/04/27/15248055416696512.html"
+                                                        id="sc_button_1742471195"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">सारथिमा सरर...</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://setopati.com/kinmel/97020"
+                                                        id="sc_button_1305153985"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title"> मिटरमा जाने ट्याक्सी!</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://mnsvmag.com/news/2017-12-04/startups-nepal-sarathi-services"
+                                                        id="sc_button_148533473"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Sarathi: charioteers at your service</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://autolife.com.np/sarathi-cab-simplifying-taxi-ride-experience/"
+                                                        id="sc_button_680910056"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">SARATHI CAB: SIMPLIFYING YOUR TAXI RIDE EXPERIENCE</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://www.inheadline.com/news/sarathi-cab-find-a-taxi-by-a-call-or-app"
+                                                        id="sc_button_859801811"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Sarathi cab; Find A Taxi by a Call or App</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://digitaldais.com/sarathi-launched-nepal/"
+                                                        id="sc_button_1949644495"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">Ride hailing taxi known as ‘Sarathi’ launched in Nepal</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="http://www.crimsonmedia.stream/2017/10/blog-post_280.html"
+                                                        id="sc_button_351142280"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span class="sc_button_title">अब नेपालमा नेपाली &#039;उबर&#039;- सारथी ट्याक्सी</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button -->
+                                            <div class="sc_item_button sc_button_wrap"><a
+                                                        href="https://www.karobardaily.com/news/auto/4278"
+                                                        id="sc_button_1556254548"
+                                                        class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"
+                                                ><span class="sc_button_text"><span
+                                                                class="sc_button_title">सारथीको साथ</span></span>
+                                                    <!-- /.sc_button_text --></a><!-- /.sc_button --></div>
+                                            <!-- /.sc_item_button --></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .entry-content -->
+
+                    </article>
+
+                </div><!-- </.content> -->
+
+            </div><!-- </.content_wrap> -->            </div><!-- </.page_content_wrap> -->
+
+
+        <footer class="site_footer_wrap scheme_default">
+            <div class="footer_wrap widget_area">
+                <div class="footer_wrap_inner widget_area_inner">
+                    <div class="content_wrap">
+                        <div class="columns_wrap">
+                            <aside id="trx_addons_widget_contacts-2" class="column-1_3 widget widget_contacts"><h3
+                                        class="widget_title">Sarathi Cab</h3>
+                                <div class="contacts_logo"><img
+                                            src="https://www.sarathi.cab/swp/wp-content/uploads/2017/07/light-logo.png"
+                                            alt=""></div>
+                                <div class="contacts_description"><p>We created our taxi to help you find the most
+                                        dependable and highest quality taxi services, anytime and anywhere without any
+                                        problems.</p>
+                                </div>
+                                <div class="contacts_info">
+                                    <div class="contacts_right"><span class="contacts_email"><a
+                                                    href="mailto:http://info@sarathi.cab">info@sarathi.cab</a></span><span
+                                                class="contacts_phone">+977-1-4217171</span></div>
+                                    <div class="contacts_left"><span class="contacts_address">Sarathi Private Limited, Times Square Shopping Mall, Darbarmarg, Kathmandu, Nepal</span>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div><!-- /.columns_wrap --></div><!-- /.content_wrap -->                        </div>
+                <!-- /.footer_wrap_inner -->
+            </div><!-- /.footer_wrap -->
+
+            <div class="copyright_wrap scheme_ ">
+                <div class="copyright_wrap_inner">
+                    <div class="content_wrap">
+                        <div class="copyright_text"><a href="https://www.sarathi.cab">Sarathi Pvt. Ltd.</a> © 2019. All
+                            Rights Reserved
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </footer><!-- /.site_footer_wrap -->
+
+    </div><!-- /.page_wrap -->
+
+</div><!-- /.body_wrap -->
+
+<!-- Post/page views count increment -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        setTimeout(function () {
+            jQuery.post(TRX_ADDONS_STORAGE['ajax_url'], {
+                action: 'post_counter',
+                nonce: TRX_ADDONS_STORAGE['ajax_nonce'],
+                post_id: 1456,
+                views: 1
+            }).done(function (response) {
+                var rez = {};
+                try {
+                    rez = JSON.parse(response);
+                } catch (e) {
+                    rez = {error: TRX_ADDONS_STORAGE['ajax_error']};
+                    console.log(response);
+                }
+                if (rez.error === '') {
+                    jQuery('.post_counters_single .post_counters_views .post_counters_number').html(rez.counter);
+                }
+            });
+        }, 10);
+    });
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('.home .sc_services_item a').attr('href', '#');
+    });
+</script>
+<script type="text/javascript">
+    var c = document.body.className;
+    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+    document.body.className = c;
+</script>
+<link rel='stylesheet' id='font-awesome-css'
+      href='https://www.sarathi.cab/demo/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.1.1'
+      type='text/css' media='all'/>
+<link rel='stylesheet' id='getcab-inline-styles-css'
+      href='https://www.sarathi.cab/demo/wp-content/themes/getcab/css/__inline.css?rnd=609945264' type='text/css'
+      media='all'/>
+<style id='getcab-inline-styles-inline-css' type='text/css'>
+    .getcab_inline_0 {
+        background-image: url(https://www.sarathi.cab/demo/wp-content/uploads/2018/01/microphones.jpg);
+    }
+</style>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wpcf7 = {
+        "apiSettings": {
+            "root": "https:\/\/www.sarathi.cab\/wp-json\/contact-form-7\/v1",
+            "namespace": "contact-form-7\/v1"
+        }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}, "jqueryUi": "1"
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+    jQuery(document).ready(function (jQuery) {
+        jQuery.datepicker.setDefaults({
+            "closeText": "Close",
+            "currentText": "Today",
+            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "nextText": "Next",
+            "prevText": "Previous",
+            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+            "dateFormat": "MM d, yy",
+            "firstDay": 0,
+            "isRTL": false
+        });
+    });
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.js?ver=4.9.10'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-sliderAccess.js?ver=4.9.10'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/js/trx_addons.login.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/shortcodes/shortcodes.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/js/swiper/swiper.jquery.min.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/js/magnific/jquery.magnific-popup.min.js?ver=4.9.10'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var TRX_ADDONS_STORAGE = {
+        "ajax_url": "https:\/\/www.sarathi.cab\/demo\/wp-admin\/admin-ajax.php",
+        "ajax_nonce": "923ccedcc2",
+        "site_url": "https:\/\/www.sarathi.cab\/demo",
+        "vc_edit_mode": "0",
+        "popup_engine": "magnific",
+        "menu_cache": ["#menu_main", "#menu_mobile"],
+        "user_logged_in": "0",
+        "email_mask": "^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$",
+        "msg_ajax_error": "Invalid server answer!",
+        "msg_magnific_loading": "Loading image",
+        "msg_magnific_error": "Error loading image",
+        "msg_error_like": "Error saving your like! Please, try again later.",
+        "msg_field_name_empty": "The name can't be empty",
+        "msg_field_email_empty": "Too short (or empty) email address",
+        "msg_field_email_not_valid": "Invalid email address",
+        "msg_field_text_empty": "The message text can't be empty",
+        "msg_send_complete": "Send message complete!",
+        "msg_send_error": "Transmit failed!",
+        "login_via_ajax": "1",
+        "msg_login_empty": "The Login field can't be empty",
+        "msg_login_long": "The Login field is too long",
+        "msg_password_empty": "The password can't be empty and shorter then 4 characters",
+        "msg_password_long": "The password is too long",
+        "msg_login_success": "Login success! The page should be reloaded in 3 sec.",
+        "msg_login_error": "Login failed!",
+        "msg_not_agree": "Please, read and check 'Terms and Conditions'",
+        "msg_email_long": "E-mail address is too long",
+        "msg_email_not_valid": "E-mail address is invalid",
+        "msg_password_not_equal": "The passwords in both fields are not equal",
+        "msg_registration_success": "Registration success! Please log in!",
+        "msg_registration_error": "Registration failed!",
+        "scroll_to_anchor": "1",
+        "update_location_from_anchor": "0",
+        "msg_sc_googlemap_not_avail": "Googlemap service is not available",
+        "msg_sc_googlemap_geocoder_error": "Error while geocode address"
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/js/trx_addons.front.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/js/trx_addons.utils.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var woocommerce_params = {"ajax_url": "\/demo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"};
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.4.3'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_cart_fragments_params = {
+        "ajax_url": "\/demo\/wp-admin\/admin-ajax.php",
+        "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+        "cart_hash_key": "wc_cart_hash_bd69715930b214f01fcff78a8604fbc8",
+        "fragment_name": "wc_fragments_bd69715930b214f01fcff78a8604fbc8"
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.4.3'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/widgets/slider/slider.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/trx_addons/shortcodes/form/form.js'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/jquery/ui/spinner.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/js/skip-link-focus-fix.js?rnd=1915499181'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/js/superfish.js?rnd=480581494'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/js/_utils.js?rnd=1069961965'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var GETCAB_STORAGE = {
+        "ajax_url": "https:\/\/www.sarathi.cab\/demo\/wp-admin\/admin-ajax.php",
+        "ajax_nonce": "923ccedcc2",
+        "site_url": "https:\/\/www.sarathi.cab\/demo",
+        "user_logged_in": "",
+        "mobile_layout_width": "959",
+        "menu_stretch": "1",
+        "menu_animation_in": "fadeInUpSmall",
+        "menu_animation_out": "fadeOutDownSmall",
+        "background_video": "",
+        "use_mediaelements": "1",
+        "message_maxlength": "1000",
+        "site_scheme": "scheme_default",
+        "admin_mode": "",
+        "email_mask": "^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$",
+        "strings": {
+            "ajax_error": "Invalid server answer!",
+            "error_global": "Error data validation!",
+            "name_empty": "The name can&#039;t be empty",
+            "name_long": "Too long name",
+            "email_empty": "Too short (or empty) email address",
+            "email_long": "Too long email address",
+            "email_not_valid": "Invalid email address",
+            "text_empty": "The message text can&#039;t be empty",
+            "text_long": "Too long message text",
+            "search_error": "Search error! Try again later.",
+            "send_complete": "Send message complete!",
+            "send_error": "Transmit failed!"
+        },
+        "menu_hover": "fade",
+        "menu_hover_color": "#ff9800",
+        "button_hover": "slide_left",
+        "alter_link_color": "#e9a900"
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/js/_init.js?rnd=2122263678'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.9.10'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/includes/theme.hovers/theme.hovers.js?rnd=660227835'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/trx_addons/trx_addons.js?rnd=2006704612'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/themes/getcab/plugins/js_composer/js_composer.js?rnd=1601462870'></script>
+<script type='text/javascript' src='https://www.sarathi.cab/demo/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+<script type='text/javascript'
+        src='https://www.sarathi.cab/demo/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'></script>
+<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
+</body>
+</html>
